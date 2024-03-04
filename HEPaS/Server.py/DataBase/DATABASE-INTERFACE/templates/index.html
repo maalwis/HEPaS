@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Schema</title>
+</head>
+<body>
+    <h1>Database Schema</h1>
+    <table border="1">
+        <tr>
+            <th>Table Name</th>
+            <th>Column Names</th>
+        </tr>
+        {% for table in tables %}
+            <tr>
+                <td>{{ table.name }}</td>
+                <td>{{ table.columns|join(', ') }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
+

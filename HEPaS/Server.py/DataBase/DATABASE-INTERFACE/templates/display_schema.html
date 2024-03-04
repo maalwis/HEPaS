@@ -1,0 +1,23 @@
+<!-- display_schema.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Open University of Science and Technology DATABASE</title>
+</head>
+<body>
+    <h2>Database Schema</h2>
+    <ul>
+        <li><a href="{{ url_for('display_records', table_name='coordinator') }}">Coordinator</a></li>
+        <li><a href="{{ url_for('display_records', table_name='course') }}">Course</a></li>
+        <li><a href="{{ url_for('display_records', table_name='student') }}">Student</a></li>
+        <li><a href="{{ url_for('display_records', table_name='student_unit') }}">Student_Unit</a></li>
+        <li><a href="{{ url_for('display_records', table_name='unit') }}">Unit</a></li>
+    </ul>
+</body>
+</html>
+
+
