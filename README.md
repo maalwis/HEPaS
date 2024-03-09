@@ -1,2 +1,2 @@
 # HEPaS
-HEPaS featuring a three-tiers architecture distributed system running on 3 different address spaces.
+HEPaS features a three-tier architecture for a distributed system that runs across three different address spaces.
